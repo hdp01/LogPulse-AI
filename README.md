@@ -26,10 +26,11 @@ Traditional monitoring (like standard ELK) requires manual rules (e.g., "Alert i
 ## 📂 Project Structure
 ```text
 .
-├── compose.yaml          # Docker configuration for ES & Kibana
-├── app.py                # Flask application (Log Generator)
-├── ai_detector.py        # ML/NLP Intelligence & ES Uploader
-├── run_project.sh        # Master Automation Script (Linux)
-├── requirements.txt      # Python dependencies
-├── .gitignore            # Keeps repo clean (ignores venv & logs)
-└── README.md             # Project documentation
+├── compose.yaml          # Docker config for Elasticsearch & Kibana
+├── app.py                # Flask application (The Data Source)
+├── ai_detector.py        # Python Intelligence Layer (NLP + ML)
+├── run_project.sh        # Master Orchestrator (Linux Automation Script)
+├── requirements.txt      # Python library dependencies
+├── SETUP.md              # Step-by-step Installation & UI Guide
+├── .gitignore            # Excludes venv/ and app.log from Git
+└── README.md             # High-level project overview & architecture
