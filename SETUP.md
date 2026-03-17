@@ -4,10 +4,10 @@
 
 The master script handles environment setup, log generation, and AI analysis in one go.
 
-# Step 1: Give execution permissions to the script
+## Step 1: Give execution permissions to the script
 chmod +x run_project.sh
 
-# Step 2: Execute the pipeline
+## Step 2: Execute the pipeline
 ./run_project.sh
 
 ## 2. Configure the Kibana Dashboard
